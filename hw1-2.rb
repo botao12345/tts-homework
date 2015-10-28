@@ -14,7 +14,7 @@ n = 0
 array = ["a D", "a C", "a B", "an A"]
 if score < 60
 	puts "With the score of #{score}, you scored an F."
- elsif score = 100
+ elsif score == 100
     puts "With the score of #{score}, you scored an A."
  elsif score >100
 	puts "Wrong score."
