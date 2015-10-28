@@ -1,3 +1,8 @@
+# Build the very beginning of a text-based adventure game with history.  
+
+# We're going to keep it simple.  The possible move choices are: L, R, F, H and E (which stands for left, right, forward, history and exit).  
+
+# While the user doesn't enter "E", the program should keep asking for moves. However, if they enter "H", the program should output the moves they've made so far, and ask for another move. 
 movements=[]
 ext = false
 while ext != true

@@ -1,3 +1,4 @@
+# Write a program that asks the user for a password.  Until the password is entered, keep asking for the password.  They have a maximum of 3 attempts.
 password = "ABC123"
 puts "Password:"
 pw = gets.chomp.upcase
